@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+body{
+    background-image: url('../images/cre.jpg');
+    background-size: cover;
+width: 1170px;
+}
+
+
+.Toolbar{
+    width: 350px;
+    font-size: 40px;
+    background:rgba(0,0,0,0.5);
+    position: absolute;
+    height: 720px;
+    float: left;
+    top: -750px;
+    border-bottom-left-radius:3px;
+    border-bottom-right-radius:3px;
+
+}
+.Toolbar ul{
+    list-style: none;
+    margin-top: 90px;
+
+}
+.Toolbar ul li{
+    margin: 10px;
+    padding: 10px;
+    color:#fff;
+    margin-left: 40px;
+}
+.Toolbar ul li img{
+    margin-right: 30px;
+    margin-top: 10px;
+    height: 50px;
+    width: 50px;
+   border-radius: 20px;
+}
+ul li a:hover{
+    color: #33ccff;
+    }
+
+
+a{
+    text-decoration: none;
+    color:#fff;
+}
+
+.A{
+    margin-top: 0px;
+    background-color: #33ccff;
+     width: 250px;
+    height: 3px;
+    margin-left: 40px;
+    border-radius: 5px;
+}
+.B{
+    margin-top: 0px;
+    background-color: #33ccff;
+     width: 100px;
+    height: 6px;
+    margin-left: 40px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+.BodyPage{
+    width: 610px;
+    margin-left: 410px;
+    margin-top: 130px;
+float: right;
+text-align: center;
+font-size:25px;
+color: #fff;
+margin-bottom: 80px;
+}
+.BodyPage a{
+    border: 2px solid #fff;
+    width: 200px;
+    height: 35px;
+    padding: 10px;
+    display: block;
+    margin-top: 70px;
+    border-radius: 15px;
+    background-color: inherit;
+}
+.clock{
+text-align: center;
+font-size:70px;
+color: #000;
+margin: 10px;
+padding: 10px;
+}
+
+
+.footer{border: 3px solid rgba(0,0,0,0.5);border-radius: 50px; width: 1487px; background-color: inherit;color:#6A6E71;text-align: center;margin-left:0px;padding: 10px;margin-top:-61px;margin-bottom: 5px; display: inline-block}
+.footer .container span{float: left;margin-top:20px;margin-left: 30px;}
+.imgefooter ul li{list-style: none;display: inline-block;margin-top: 20px;float: right;margin-right: 30px;}

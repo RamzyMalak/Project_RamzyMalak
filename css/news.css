@@ -1,0 +1,226 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+body{
+background-image: url('../images/cre.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+background-clip: border-box;
+background-attachment: fixed;
+
+}
+.con{
+width: 1880px;
+overflow: hidden;
+display: inline;
+}
+
+.Toolbar{
+    width: 25%;
+    overflow: hidden;
+    font-size: 40px;
+    background:rgba(0,0,0,0.5);
+    /* position: absolute; */
+    height: 1100px;
+    position: fixed;
+    float: left;
+    top: -750px;
+
+    /*position: fixed;*/
+
+}
+.Toolbar ul{
+    list-style: none;
+    margin-top: 90px;
+
+}
+.Toolbar ul li{
+    margin: 10px;
+    padding: 10px;
+    color:#fff;
+    margin-left: 40px;
+    font-size: 50px;
+}
+.Toolbar ul li img{
+    margin-right: 30px;
+    margin-top: 10px;
+    height: 50px;
+    width: 50px;
+   border-radius: 20px;
+}
+ul li a:hover{
+    color: #33ccff;
+    font-size: 40px;
+}
+a{
+    text-decoration: none;
+    color:#fff;
+}
+
+.A{
+    margin-top: 0px;
+    background-color: #33ccff;
+     width: 250px;
+    height: 3px;
+    margin-left: 40px;
+    border-radius: 5px;
+}
+.B{
+    margin-top: 0px;
+    background-color: #33ccff;
+     width: 100px;
+    height: 6px;
+    margin-left: 40px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+.news{
+  width: 90%;
+  overflow: hidden;
+  float: right;
+  margin-right: 55px;
+}
+
+.news > div{
+width: 300px;
+border: 2px solid green;
+border-radius:50px;
+margin: 10px;
+padding: 10px;
+float:right;
+text-align: center;
+height: 330px;
+}
+
+body{perspective: 1000px;}
+.card
+{
+width: 300px;
+height: 330px;
+margin: 50px auto;
+position: relative;
+transform-style: preserve-3d;
+transition: all 1s ease-in-out;
+}
+.card:hover{
+     transform: rotateY(180deg)
+}
+.card > div
+{
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     background-color: #eee;
+
+     border-radius: 10px;
+     border: 1px solid #ccc;
+     font-family: Arial, Tahoma;
+     text-align: center;
+}
+.card .front{
+     z-index:2;
+backface-visibility: hidden;
+}
+.card .front header
+{
+     background-color: #444;
+     width: 100%;
+     height: 80px;
+     border-radius: 10px 10px 0 0;
+     margin-bottom: 55px;
+}
+.card .front img
+{
+     width: 100px;
+     height: 100px;
+     border-radius: 50%;
+     position: relative;
+     top:25px;
+
+}
+.card .front h3{
+     margin-bottom: 5px;
+}
+
+.card .front p{
+     margin:0 auto;
+     width: 90%;
+     line-height: 1.7;
+
+}
+.card .front span
+{
+     display: inline-block;
+     margin-top: 5px;
+     color: #60AC37;
+     font-weight: bold;
+
+}
+.card .back {
+    z-index: 1;
+transform: rotateY(180deg);
+backface-visibility: hidden;
+}
+.card .back ul{
+     padding: 0;
+     list-style: none;
+     line-height: 2;
+}
+.card .back a:first-of-type{
+  color:blue;
+  font-size: 15px;
+  text-align: center;
+  margin-top: 45px;
+  display: block;
+  text-shadow: 1px 1px 0.2px green;
+}
+
+/* .news div:first-child{
+width: 315px;
+margin-top: 21px;
+margin-left: 420px;
+border: 2px solid green;
+height: 303px;
+text-align: center;
+float: left;
+ border-radius:50px;
+ padding-top: 12px;
+}
+.news div:nth-child(2) {
+    width: 315px;
+    margin-top:-321px;
+    margin-left: 420px;
+    border: 2px solid green;
+    height: 303px;
+    text-align: center;
+    float: right;
+    margin-bottom: 40px;
+    margin-right: 65px;
+     border-radius:50px;
+     padding-top: 12px;
+}
+
+.news div p,a{
+    margin-top: 23px;
+    font-size: 20px;
+
+}
+.news div img{
+    width: 200px;
+    height: 200px;
+    border-radius:50%;
+}
+.news a{
+    text-decoration: none;
+    color:#3EE03E;
+    font-size: 20px;
+}
+*/
